@@ -341,7 +341,6 @@ body {
 .social-account {
   display: flex;
   justify-content: center;
-  padding: 12px;
   height: 44px;
   width: 44px;
   border-radius: 50%;
@@ -488,6 +487,7 @@ body {
 .card-item:hover,
 .card-item:focus {
   box-shadow: var(--shadow-project);
+  cursor: pointer;
 }
 
 .card-text {
